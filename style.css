@@ -116,8 +116,53 @@ margin-top:32px;
     display: flex;
     justify-content: center;
     margin-top:48px;
-    gap:24px;
+    gap:24px;}
 
 .tree1-image{
     padding-bottom:48px;
 }
+
+ /* optional section starts here */
+
+ .optional-container{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:128px 240px;
+    gap:50px;
+
+ }
+ .optional-title{
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+
+ }
+ .optional-products{
+    text-align: center;
+ }
+
+ /* Hot deal section starts here */
+
+ .hot-deal-container{
+    width: 1922px;
+height: 620px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+justify-content:center;
+gap: 186px;
+align-items: center;
+ }
+ .hot-deal-title{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+
+/* Intragram Section Starts here */
