@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* banner section css */
+
+.banner-container{
+    width: 1920px;
+    height: 850px;
+    background-color:#E554731A ;
+    display: flex;
+    justify-content:center;
+    gap: 97px;
+}
+
+.banner-title{
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+margin-bottom:32px;
+
+}
+
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-bottom:32px;
+
+}
+
+.banner-left{
+    padding-top:197px;
+}
+
+.banner-right{
+    padding-top:50px;
+}
+
+
+/* shared css */
+.btn{
+    border-radius: 8px;
+background: #E55473;
+    color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+padding: 20px 43px;
+border:none;
+}
+
+
+/* featured section */
+.featured-title-container{
+    text-align: center;
+    margin-top:178px;
+}
+.featured-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.tree{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+display: flex;
+justify-content: center;
+align-items:last baseline;
+}
+.tree1{
+    width: 464px;
+height: 538px;border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+display: flex;
+justify-content: center;
+align-items:last baseline;
+}
+.tree2{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+display: flex;
+justify-content: center;
+}
+.pink-flower{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+margin-top:32px;
+}
+.tree-item-container{
+   display: flex;
+   flex-direction: column;
+}
+.tree-container{
+    display: flex;
+    justify-content: center;
+    margin-top:48px;
+    gap:24px;
+
+.tree1-image{
+    padding-bottom:48px;
+}
