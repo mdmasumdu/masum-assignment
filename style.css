@@ -5,10 +5,12 @@
 
 /* navbar section */
 .nav-container{
+    width: 1920px;
     background-color: rgb(19, 18, 18);
     height: 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 200px;
     align-items: center;
 
 }
@@ -92,6 +94,9 @@ border:none;
 
 
 /* featured section */
+.features{
+    width: 1920px;
+}
 .featured-title-container{
     text-align: center;
     margin-top:178px;
@@ -166,6 +171,7 @@ margin-top:32px;
     display:flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     margin:128px 240px;
     gap:50px;
 
@@ -200,6 +206,9 @@ margin-bottom: 24px;
 }
 
 /* Intragram Section Starts here */
+.instragram{
+    width:1920px;
+}
 
 .instragram-title-container{
     text-align: center;
@@ -219,16 +228,18 @@ margin-bottom: 24px;
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 48px 240px 128px;
+    margin:128px 240px 128px 240px;
+
 }
 /* Get The Latest Deals section starts here */
 
 .latest-deals-container{
+    
     width: 1440px;
     height: 449px;
     border-radius: 8px;
     background-image: url('Flower Asset/Rectangle\ 9.png');
-    margin: auto;
+    margin:128px 240px 128px 240px;
 
 }
 .latest-title{
