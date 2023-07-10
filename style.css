@@ -188,3 +188,37 @@ margin-bottom: 24px;
     margin: 48px 240px 128px;
 }
 /* Get The Latest Deals section starts here */
+
+.latest-deals-container{
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    margin: auto;
+
+}
+.latest-title{
+    color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+padding-bottom: 24px;
+}
+
+
+.Latest-deal-item-container{
+  text-align: center;
+  padding: 122px 250px;
+}
+.emaila{
+    width: 700px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+}
+.last-part{
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
